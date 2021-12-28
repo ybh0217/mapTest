@@ -1,0 +1,75 @@
+{
+  "project_info": {
+    "project_number": "821735446816",
+    "firebase_url": "https://summer-music-311405-default-rtdb.firebaseio.com",
+    "project_id": "summer-music-311405",
+    "storage_bucket": "summer-music-311405.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:821735446816:android:7ca84db2f19d42b5831f45",
+        "android_client_info": {
+          "package_name": "com.example.firebasetest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "821735446816-u1elgu7u99r7ho2cvgklgg06t67p7gkt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf2cifit89nvRljsySvBb6bicH264VIjM"
+        },
+        {
+          "current_key": "AIzaSyCbw50NzZ6iqMwoTpaJNUOKr3UITYwAleI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "821735446816-u1elgu7u99r7ho2cvgklgg06t67p7gkt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:821735446816:android:277f8a5ef467cd1a831f45",
+        "android_client_info": {
+          "package_name": "com.example.maptest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "821735446816-u1elgu7u99r7ho2cvgklgg06t67p7gkt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf2cifit89nvRljsySvBb6bicH264VIjM"
+        },
+        {
+          "current_key": "AIzaSyCbw50NzZ6iqMwoTpaJNUOKr3UITYwAleI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "821735446816-u1elgu7u99r7ho2cvgklgg06t67p7gkt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

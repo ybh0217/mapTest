@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BFD4DD"
+    android:clickable="true"
+    tools:context="com.example.maptest.DetailSignup">
+
+    <ImageView
+        android:id="@+id/underMenu"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:clickable="true"
+        android:src="@drawable/ic_menu_off"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/underMenu">
+
+        <TextView
+            android:id="@+id/IdText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ID" />
+
+        <EditText
+            android:id="@+id/newIdEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="ID를 입력하세요"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/PwText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PassWord" />
+
+        <EditText
+            android:id="@+id/newPwEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:id="@+id/PointNameText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="지점 이름" />
+
+        <EditText
+            android:id="@+id/newPointNameEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="지점 이름을 입력하세요"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/PointAddressText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="주소" />
+
+        <EditText
+            android:id="@+id/newPointAddressEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="주소를 입력하세요"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BT Address:" />
+
+        <TextView
+            android:id="@+id/BtAddressText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnBtAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BT Address 확인" />
+
+        <Button
+            android:id="@+id/btnChange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="회원가입" />
+
+        <TextView
+            android:id="@+id/AllText"
+            android:layout_width="match_parent"
+            android:layout_height="277dp"
+            android:hint="최종 입력 내용 확인" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
